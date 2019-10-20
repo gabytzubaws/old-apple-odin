@@ -1,0 +1,124 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+.main-container{
+  background-image: url(images/your_verse_hero.jpg);
+  background-repeat: no-repeat;
+  background-position: 52% 90%;
+  position: relative;
+  padding-top: 80px;
+  text-align: center;
+  height: 70vh;
+}
+.main-container > p {
+  color: white;
+}
+
+.nav-bar{
+  display: flex;
+  max-width: 85%;
+  margin: 0px auto 30px auto;
+}
+
+.nav{
+  font-family: "Lato";
+  font-size: 12px;
+  border-left: 0.5px black solid;
+  padding: 8px 15px;
+  color: white;
+  flex: 1;
+  text-align: center;
+  background-image: linear-gradient(grey, #585858, grey);
+}
+.nav:hover{
+  background-image: linear-gradient(gray, #282828, gray);
+}
+.nav:first-child{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.nav:last-child{
+  flex: 1;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.nav > input {
+  max-width: 80%;
+  background-image: linear-gradient(gray, #585858, gray);
+  border-top: 1px solid black;
+  border-bottom: 1px solid gray;
+  border-radius: 30px;
+}
+.larger{
+  font-size: 30px;
+  line-height: 1.5em;
+}
+
+.largerr{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 60px;
+  margin-bottom: 25px;
+}
+.main-container > p:last-child{
+  text-decoration: none;
+  color: white;
+  margin-top: 40px;
+}
+.normal-font{
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+}
+.normal-font:hover{
+  text-decoration: underline;
+}
+.flex-container{
+  margin-top: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+.flex-img{
+  flex: 1;
+  max-width: 24.9%;
+  object-fit: contain;
+}
+footer{
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+}
+.right, .left{
+  font-size: 11px;
+  padding: 7px 0px;
+}
+.right > span{
+  border-right: 1px solid gray;
+  padding-right: 5px;
+  margin-left: 5px;
+  color: dodgerblue;
+}
+.right > span:last-child{
+  border: none;
+}
+.left > a{
+  text-decoration: none;
+  color: dodgerblue;
+}
+.right{
+  margin-right: 40px;
+}
+.left{
+  margin-left: 40px;
+}
+.below-footer{
+  font-size: 11px;
+  margin-left: 80px;
+}
+.below-footer > p > a{
+  text-decoration: none;
+  color: dodgerblue;
+}
